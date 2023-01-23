@@ -73,7 +73,7 @@ li.about-menu{
     display: block;
     height: 4px;
     width: 140px;    
-    background-color: white;
+    background-color: currentColor;
     border-radius: 20px;
     margin: 20px 25px;
 }
@@ -83,7 +83,7 @@ li.about-menu{
     display: block;
     height: 4px;
     width: 140px;    
-    background-color: white;
+    background-color: currentColor;
     border-radius: 20px;
     margin: 20px 25px;
 }
