@@ -111,13 +111,17 @@ li.about-menu{
     color: black;
 }
 
-.about button.my-button{
+.about button.my-button,
+.write-us .my-button{
     border-radius: 10px;
     padding: 5px 15px;
 }
 
-.faq .button{
-    margin-top: auto;
+.write-us input,
+.write-us textarea{
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #CCCCCC;
 }
 
 .more-info{
