@@ -16,6 +16,11 @@ ul{
 a{  color: currentColor;
     text-decoration: none;
 }
+
+img{
+    max-width: 100%;
+}
+
 .debug{
     border: 1px solid rgb(255, 115, 0);
     padding: 10px;
@@ -50,6 +55,53 @@ li.about-menu{
 
 .green-a{
     background-color: var(--green-acqua);
+    color: white;
+}
+
+.avatar img{
+    max-height: 210px;
+}
+
+@media screen and (min-width: 1121px) {
+    .avatar img{
+        max-height: 255px;
+    }
+}
+
+.star::before{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 140px;    
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px 25px;
+}
+
+.star::after{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 140px;    
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px 25px;
+}
+
+.star,
+.subtitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitle li{
+    margin: 0 5px;
+    padding: 0 5px;
+}
+
+.element-list{
+    list-style-type: "-";
 }
 
 .faq .button{
