@@ -38,12 +38,14 @@ li.about-menu{
     margin: 0 18px;
 }
 
-.burger-nav{
+/***bottoni***/
+.my-button{
     background-color: transparent;
-    color: white;
-    border: 1px solid white;
+    color: currentColor;
+    border: 1px solid currentColor;
     padding: 5px;
 }
+/*************/
 
 @media screen and (min-width: 1121px) {
     .header-main{        
@@ -107,6 +109,11 @@ li.about-menu{
 
 .portfolio{
     color: black;
+}
+
+.about button.my-button{
+    border-radius: 10px;
+    padding: 5px 15px;
 }
 
 .faq .button{
