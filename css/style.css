@@ -30,6 +30,7 @@ img{
 .header-main{
     background-color: var(--dark-blue);
     max-height: 75px;
+    padding: 22px 0;
     color: white;
     text-transform: uppercase;
 }
@@ -109,6 +110,7 @@ li.about-menu{
 
 .portfolio{
     color: black;
+    padding: 42px 0 50px;
 }
 
 .about button.my-button,
@@ -122,21 +124,83 @@ li.about-menu{
     width: 100%;
     border: 0;
     border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 5px;
 }
 
 .more-info{
     background-color: var(--lightdark-blue);
     color: white;
+    padding: 50px 0;
 }
 
-.social-info .social{
+.social-info{
+    margin: 32px 0;
+}
+
+.social-info .social__link{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.social__link i{
+    border: 1px solid currentColor;
+    border-radius: 50%;
+}
+
+a .fb{
+    padding: 5px 10px;
+}
+
+a .gp{
+    padding: 6px 5px;
+}
+
+a .tw,
+a .lkd{
+    padding: 5px 9px;
 }
 
 footer .policy{
     background-color: var(--dark-blue);
     color: white;
     text-align: center;
+    padding: 35px 0;
+}
+
+/***padding section**/
+section.start{
+    padding: 30px 0;
+}
+
+section.about,
+section.write-us{
+   padding: 42px 0 22px;
+}
+
+@media screen and (min-width: 1121px) {
+    header.header-main{
+        padding: 33px 0;
+    }
+
+    section.start{
+        padding: 70px 0;
+    }
+
+    section.portfolio{
+        padding:85px;
+    }
+
+    section.about,
+    section.write-us{
+        padding: 85px 0 60px;
+    }
+
+    .social-info{
+        margin: 0;
+    }
+
+    footer .policy{        
+        padding: 40px 0;
+    }
 }
