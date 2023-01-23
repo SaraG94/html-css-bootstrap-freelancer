@@ -25,43 +25,9 @@ ul{
     color: white;
 }
 
-.header-main .my-container{
-    display: flex;
-}
-
-@media screen and (min-width: 433px) {
-   
-    ul.header-nav{
-        display: none;
-    }
-}
-
 @media screen and (min-width: 1121px) {
     .header-main{        
         max-height: 90px;      
-    }
-
-    .header-main .my-container{
-        max-width: 945px;
-        margin: 0 auto;
-        padding: 33px 0; 
-    }
-
-    i.header-menu{
-        display: none;
-    }
-
-     ul.header-nav{
-        display: block;
-    }
-}
-
-@media screen and (min-width: 1651px) {
-   
-    .header-main .my-container{
-        max-width: 1144px;
-        margin: 0 auto;
-        padding: 35px 0; 
     }
 }
 
@@ -86,7 +52,7 @@ ul{
     justify-content: space-around;
 }
 
-footer{
+footer .policy{
     background-color: var(--dark-blue);
     color: white;
     text-align: center;
