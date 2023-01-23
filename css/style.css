@@ -13,6 +13,9 @@ ul{
     text-decoration: none;
 }
 
+a{  color: currentColor;
+    text-decoration: none;
+}
 .debug{
     border: 1px solid rgb(255, 115, 0);
     padding: 10px;
@@ -23,6 +26,18 @@ ul{
     background-color: var(--dark-blue);
     max-height: 75px;
     color: white;
+    text-transform: uppercase;
+}
+
+li.about-menu{
+    margin: 0 18px;
+}
+
+.burger-nav{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
 }
 
 @media screen and (min-width: 1121px) {
