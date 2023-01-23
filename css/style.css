@@ -103,6 +103,11 @@ li.about-menu{
 .element-list{
     list-style-type: "-";
 }
+/**fine first section**/
+
+.portfolio{
+    color: black;
+}
 
 .faq .button{
     margin-top: auto;
