@@ -62,12 +62,12 @@ li.about-menu{
 }
 
 .avatar img{
-    max-height: 210px;
+    width: 188px;
 }
 
 @media screen and (min-width: 1121px) {
     .avatar img{
-        max-height: 255px;
+        width: 228px;    
     }
 }
 
