@@ -71,16 +71,7 @@ li.about-menu{
     }
 }
 
-.star::before{
-    content: '';
-    display: block;
-    height: 4px;
-    width: 140px;    
-    background-color: currentColor;
-    border-radius: 20px;
-    margin: 20px 25px;
-}
-
+.star::before,
 .star::after{
     content: '';
     display: block;
@@ -89,13 +80,6 @@ li.about-menu{
     background-color: currentColor;
     border-radius: 20px;
     margin: 20px 25px;
-}
-
-.star,
-.subtitle{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .subtitle li{
@@ -111,6 +95,10 @@ li.about-menu{
 .portfolio{
     color: black;
     padding: 42px 0 50px;
+}
+
+.portfolio img{
+    border-radius: 8px;
 }
 
 .about button.my-button,
